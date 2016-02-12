@@ -18,7 +18,7 @@ var QuizUser = function (name, email, password, totalScore) {
   //code here
 var Question = function (title, answersArray, rightAnswer, difficulty) {
   this.title =         title;
-  this. answersArray = answersArray;
+  this.answersArray = answersArray;
   this.rightAnswer =   rightAnswer;
   this.difficulty =    difficulty;
 }

@@ -3,15 +3,7 @@
 //Add a reverse method to the String 'class' so that every instance of String can call reverse and reverse itself.
 
   //code here
+  String.prototype.reverse = function(str) {
+    return this.split("").reverse().join("");
 
-  var myString = "Hello World";
-  function reverseString (str) {
-    str = str.split("");
-  //  console.log(str);
-    str.reverse();
-  //  console.log(str);
-    str = str.join("");
-  //  console.log(str);
-    return str;
-  }
-  reverseString(myString);
+};
